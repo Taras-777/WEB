@@ -1,0 +1,40 @@
+body {
+  background: #fff;
+  font-family: "Roboto", "Arial", sans-serif;
+  color: #233348;
+}
+
+a {
+  text-decoration: none;
+  color: #233348;
+}
+b {
+  color: #ffffff;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+li {
+  display: block;
+}
+p {
+  margin: 0;
+}
+button {
+  border: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.default-button {
+  border-radius: 80px;
+  color: #458ff6;
+  width: 200px;
+  height: 56px;
+  outline-color: #458ff6;
+  border: 2px solid #458ff6;
+  background-color: transparent;
+}

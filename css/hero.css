@@ -1,0 +1,51 @@
+.hero__inner {
+  width: 500px;
+  padding-bottom: 300px;
+  padding-top: 50px;
+}
+
+.hero__title {
+  padding-top: 50px;
+  width: 240px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+.hero__paragraph {
+  padding-top: 50px;
+  width: 360px;
+  line-height: 38px;
+  font-size: 18px;
+  color: #7d7987;
+}
+
+.hero_buttons {
+  margin-top: 20px;
+}
+
+.hero__line {
+  width: 56px;
+  height: 1px;
+  background: #000000;
+}
+
+.content {
+  display: flex;
+  padding-left: 150px;
+  padding-right: 200px;
+}
+
+.hero_img {
+  padding-top: 80px;
+  padding-left: 200px;
+  width: 600px;
+  height: 400px;
+}
+.point_img1 {
+  padding-left: 750px;
+  height: 100px;
+  width: 130px;
+}
