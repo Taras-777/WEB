@@ -12,13 +12,15 @@
 
 <body>
 
+
+
     <!-- HEADER -->
     <div class="container">
         <header>
             <div class="header">
                 <div class="header_name">Plane</div>
                 <div class="search">
-                    <input class="search_input" id="search_input" type="text" placeholder="Search " />
+                    <input class="search_input" id="search_input" type="text" placeholder="Type something..." />
                     <button class="search_button" id="search_button" type="button">
                         Search
                     </button>
@@ -29,12 +31,40 @@
             </div>
         </header>
 
-        <div class="content">
-            <!-- ASIDE -->
+        <div class="content" id="my-plane">
             <aside class="aside">
+
+                <form id="add_form">
+                    <h2>Add plane</h2>
+
+                    <div class="form-field">
+                        <label for="model_input" class="form-label">Model*</label>
+                        <input type="text" class="form-control" id="model_input" required />
+                    </div>
+
+                    <div class="form-field">
+                        <label for="description_input" class="form-label">Description*</label>
+                        <input type="text" class="form-control" id="description_input" required />
+                    </div>
+
+                    <div class="form-field">
+                        <label for="fuel_input" class="form-label">Fuel*</label>
+                        <input type="number" class="form-control" id="fuel_input" required />
+                    </div>
+
+                    <div class="form-field">
+                        <label for="passengers_input" class="form-label">Passengers*</label>
+                        <input type="number" class="form-control" id="passengers_input" required />
+                    </div>
+
+                    <button id="submit_button" type="submit" class="default_button">
+                        Submit
+                    </button>
+                </form>
+
                 <h2>Filter</h2>
                 <div class="sort">
-                    Sort by number of passengers
+                    Sort by passengers:
                     <input type="checkbox" id="sort_checkbox">
                     </label>
                 </div>
@@ -43,9 +73,9 @@
 
                 <div class="count">
                     <div>Count total amount of fuel:</div>
-                    <button class="count_button" id="count_button" type="button">Count</button>
+                    <button class="default_button" id="count_button" type="button">Count</button>
                     <div>
-                        Amount of fuel: <span id="total-fuel">0</span>
+                        Amount of fuel: <span id="total-time">0</span>
                     </div>
                 </div>
             </aside>
