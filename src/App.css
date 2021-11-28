@@ -1,28 +1,20 @@
-@import "./css/header.css";
-@import "./css/home.css";
-@import "./css/catalog.css";
-@import "./css/item-page.css";
-@import "./css/footer.css";
-
-.container {
-    margin: 0 auto;
-    width: 1366px;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+.app {
+  margin: 0 auto;
+  max-width: 1400px;
+  border: solid;
+  border-width: 2px;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: #020202;
 }
 
-.icon {
-    margin: 0;
-    height: 60px;
-    width: 120px;
+li {
+  display: block;
 }
 
+body {
+  font-family: Avenir, sans-serif;
+  background-color: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
+}

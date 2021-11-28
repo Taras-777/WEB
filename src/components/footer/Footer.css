@@ -1,0 +1,50 @@
+.footer__upper_part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.branding {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px;
+}
+
+.branding__header {
+  margin-bottom: 1px;
+}
+
+.branding__paragraph {
+  margin-top: 1px;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer__logo__img {
+  width: 75px;
+  height: 75px;
+  margin: 15px;
+}
+
+.social_media {
+  display: flex;
+  align-items: center;
+}
+
+.footer__diving_line {
+  width: 90%;
+}
+
+.footer__lower_part {
+  padding-bottom: 10px;
+}
+
+.footer__lower_part {
+  display: flex;
+  justify-content: center;
+}
